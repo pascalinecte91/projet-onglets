@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Onglets</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Roboto:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="tabs">
+      <nav role="tablist" aria-label="tabs component" class="tabs-btn-container">
+        <button
+          role="tab"
+          aria-controls="panel-1"
+          id="tab-1"
+          type="button"
+          aria-selected="true"
+          tabindex="0"
+          class="tab active-tab"
+        >
+          Rocket 🚀
+        </button>
+        <button
+          role="tab"
+          aria-controls="panel-2"
+          id="tab-2"
+          type="button"
+          aria-selected="false"
+          tabindex="-1"
+          class="tab"
+        >
+          Science 🧪
+        </button>
+        <button
+          role="tab"
+          aria-controls="panel-3"
+          id="tab-3"
+          type="button"
+          aria-selected="false"
+          tabindex="-1"
+          class="tab"
+        >
+          Food 🍉
+        </button>
+      </nav>
+      <div id="panel-1" role="tabpanel" tabindex="0" aria-labelledby="tab-1" class="tab-content active-tab-content">
+        <h3>Rocket 🚀</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus voluptates laudantium nihil perspiciatis qui
+          voluptatum explicabo, nemo dignissimos id harum enim earum minus est vel, ad iure ab provident quae temporibus
+          voluptatem quibusdam fuga vero commodi! At culpa quidem quam libero atque. Maiores esse ut earum rerum ad,
+          alias dolorum!
+        </p>
+      </div>
+      <div id="panel-2" role="tabpanel" tabindex="0" aria-labelledby="tab-2" class="tab-content">
+        <h3>Science 🧪</h3>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus nemo eveniet alias quo, dolor
+          quisquam ut a eligendi vero, consequatur, quis cum. Saepe esse debitis ducimus? Quod fugiat obcaecati
+          veritatis amet voluptatum doloribus neque commodi qui quasi illo eum placeat odio ipsam, at, tempore accusamus
+          dicta deleniti explicabo! Quisquam ullam minima iure! Assumenda adipisci consequuntur soluta provident alias
+          fuga quidem ad aperiam magnam nesciunt quibusdam, et qui. Omnis dignissimos pariatur consequatur eos aut, iste
+          voluptatum!
+        </p>
+      </div>
+      <div id="panel-3" role="tabpanel" tabindex="0" aria-labelledby="tab-3" class="tab-content">
+        <h3>Food 🍉</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis facere ducimus quas harum provident
+          assumenda atque delectus odio. Blanditiis totam optio vitae placeat alias. Fugiat magnam cupiditate ab ipsum
+          qui sapiente pariatur doloribus reiciendis adipisci enim aliquam vero reprehenderit a quibusdam quas, dolores,
+          debitis cumque dolor ut atque voluptatem nobis voluptatibus velit accusamus! A ea laudantium maxime eaque
+          consequuntur veritatis!
+        </p>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
